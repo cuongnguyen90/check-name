@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Name</title>
+</head>
+<body>
+<script>
+    let input = prompt('Nhap ten :');
+    isFirstLetterUppercase(input);
+
+    function isFirstLetterUppercase(string) {
+        pattern = /^[A-Z]/;
+
+        if (pattern.test(string)){
+            console.log("String's first character is uppercase");
+        }else {
+            console.log("String's first character is'nt uppercase");
+        }
+    }
+</script>
+</body>
+</html>
